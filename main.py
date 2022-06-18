@@ -1,5 +1,5 @@
 import tensorflow as tf
-model = tf.keras.models.load_model('2resnet50.hdf5')
+model = tf.keras.models.load_model('2resnet50.h5')
 import tempfile
 import cv2
 import streamlit as st
